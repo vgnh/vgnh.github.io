@@ -1,0 +1,37 @@
+.home {
+  background: #2f3136;
+  height: 100%;
+
+  /* Expand as per child container */
+  overflow: auto;
+}
+
+.home_container {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 13vh;
+}
+
+.header_name {
+  color: #ffffff;
+  font-size: 2.2em;
+  font-weight: bold;
+}
+
+.para_about {
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.portrait {
+  float: right;
+  padding-right: 2vw;
+  width: 220px;
+  border-radius: 50%;
+}
+
+/*
+Header light yellow
+color: #e6dab2;
+*/

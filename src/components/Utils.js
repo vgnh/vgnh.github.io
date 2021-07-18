@@ -1,5 +1,5 @@
-const Utils = {
+/* const Utils = {
   currentYear: new Date().getFullYear()
 }
 
-export default Utils
+export default Utils */
