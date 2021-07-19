@@ -1,5 +1,4 @@
 import './Error.css'
-import { Link } from 'react-router-dom'
 
 const Error = () => {
   return (
@@ -11,7 +10,7 @@ const Error = () => {
           This might not be the page you are looking for.
         </h1>
         <h2 class="error_helper_message">
-          Click here to go back <Link to="/">Home</Link>.
+          Click here to go back <a href="/">Home</a>.
         </h2>
       </div>
     </div>
