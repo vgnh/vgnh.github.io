@@ -1,11 +1,13 @@
 import './Home.css'
 
 const Home = () => {
+  const meow = new Audio("./sounds/meow.mp3")
+  const playMeow = () => meow.play()
   return (
     <div class="home">
       <div class="home_container">
         <div class="portrait_container">
-          <img class="portrait" src="https://avatars.githubusercontent.com/u/22466712?v=4" alt="GitHub avatar" title="You might know me by this avatar on GitHub." />
+          <img onClick={playMeow} class="portrait" src="https://avatars.githubusercontent.com/u/22466712?v=4" alt="GitHub avatar" title="You might know me by this avatar on GitHub." />
         </div>
         <h2 class="header_name">Vignesh Mani</h2>
         <p class="para_about">

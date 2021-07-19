@@ -33,6 +33,10 @@
   border-radius: 56% 61% 48% 61%;
 }
 
+.portrait:active {
+  border: 2px solid #ffffff;
+}
+
 @media screen and (max-width: 380px) {
   .portrait_container {
     margin: 1em auto 1em auto;
