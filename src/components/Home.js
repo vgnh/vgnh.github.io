@@ -24,7 +24,7 @@ const Home = () => {
           systems programming language such as Rust and learning about WebAssembly.
           <br /><br />
           My other unrelated interests include learning to read and speak 日本語, which I must say is currently on pause.<br />
-          I'm also a huge <a href="https://en.wikipedia.org/wiki/Gundam" target="_blank" rel="noreferrer">Gundam</a> nerd and I'd even attribute it to laying the foundation for my interest in Computer Science back when I was a little kid.
+          I'm also a huge <a href="https://en.wikipedia.org/wiki/Gundam" target="_blank" rel="noreferrer">Gundam</a> fan and I'd even attribute it to laying the foundation for my interest in Computer Science back when I was a little kid.
           <br /><br />
           You can find me on <a href="https://github.com/vgnh" target="_blank" rel="noreferrer">GitHub</a> and <a href="https://twitter.com/vigneshm_" target="_blank" rel="noreferrer">Twitter</a>.<br />
           Business enquiry? Send me an <a href="mailto:vigneshofficial03@gmail.com">Email</a>.<br />
