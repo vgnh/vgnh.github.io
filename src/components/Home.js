@@ -4,7 +4,9 @@ const Home = () => {
   return (
     <div class="home">
       <div class="home_container">
-        <img class="portrait" src="https://avatars.githubusercontent.com/u/22466712?v=4" alt="GitHub avatar" title="You might know me by this avatar on GitHub." />
+        <div class="portrait_container">
+          <img class="portrait" src="https://avatars.githubusercontent.com/u/22466712?v=4" alt="GitHub avatar" title="You might know me by this avatar on GitHub." />
+        </div>
         <h2 class="header_name">Vignesh Mani</h2>
         <p class="para_about">
           Hi there! I'm Vignesh.
@@ -24,7 +26,7 @@ const Home = () => {
           <br /><br />
           You can find me on <a href="https://github.com/vgnh" target="_blank" rel="noreferrer">GitHub</a> and <a href="https://twitter.com/vigneshm_" target="_blank" rel="noreferrer">Twitter</a>.<br />
           Business enquiry? Send me an <a href="mailto:vigneshofficial03@gmail.com">Email</a>.<br />
-          You can also download my <a href="#/">Resume</a>.
+          You can also download my <a href="https://github.com/vgnh/vgnh.github.io/releases/download/0.1.0/Vignesh-Mani-Resume.pdf">Resume</a>.
         </p>
       </div>
     </div>

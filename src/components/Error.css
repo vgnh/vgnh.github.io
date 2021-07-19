@@ -1,0 +1,32 @@
+.error {
+  background: #2f3136;
+  height: 100%;
+
+  /* Expand as per child container */
+  overflow: auto;
+}
+
+.error_container {
+  max-width: 490px;
+  margin: 0 auto;
+  padding: 15vh 5vw 0 5vw;
+}
+
+.error_message {
+  color: #e6dab2;
+  font-size: 3em;
+}
+
+.error_helper_message {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 380px) {
+  .error_message {
+    font-size: 1.5em;
+  }
+
+  .error_helper_message {
+    font-size: 1.1em;
+  }
+}

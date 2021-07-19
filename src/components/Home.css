@@ -7,10 +7,9 @@
 }
 
 .home_container {
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 13vh;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 7vw 5vw 0 5vw;
 }
 
 .header_name {
@@ -24,14 +23,24 @@
   line-height: 1.5;
 }
 
-.portrait {
+.portrait_container {
+  margin-left: 1em;
   float: right;
-  padding-right: 2vw;
-  width: 220px;
-  border-radius: 50%;
 }
 
-/*
-Header light yellow
-color: #e6dab2;
-*/
+.portrait {
+  width: 220px;
+  border-radius: 56% 61% 48% 61%;
+}
+
+@media screen and (max-width: 380px) {
+  .portrait_container {
+    margin: 1em auto 1em auto;
+    float: none;
+  }
+
+  .portrait {
+    display: block;
+    margin: 0 auto;
+  }
+}
