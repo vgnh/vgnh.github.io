@@ -34,7 +34,11 @@
 }
 
 .portrait:active {
-  border: 2px solid #ffffff;
+  border: 1px solid #e6dab2;
+}
+
+.portrait:hover {
+  box-shadow: 0 0 20px #e6dab2;
 }
 
 @media screen and (max-width: 380px) {
