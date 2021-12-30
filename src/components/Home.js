@@ -31,6 +31,9 @@ const Home = () => {
           Business enquiry? Send me an <a href="mailto:vigneshofficial03@gmail.com">Email</a>.<br />
           You can also download my <a href="https://github.com/vgnh/vgnh.github.io/releases/download/0.1.0/Vignesh-Mani-Resume.pdf">Resume</a>.
         </p>
+        <p class="para_last_updated">
+          Last updated: 24-Sep-2021
+        </p>
       </div>
     </div>
   )

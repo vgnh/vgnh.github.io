@@ -41,6 +41,12 @@
   box-shadow: 0 0 20px #e6dab2;
 }
 
+.para_last_updated {
+  color: #ffffff;
+  line-height: 1.5;
+  text-align: center;
+}
+
 @media screen and (max-width: 380px) {
   .portrait_container {
     margin: 1em auto 1em auto;
