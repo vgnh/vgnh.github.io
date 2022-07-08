@@ -25,7 +25,7 @@ const Home = () => {
           <br /><br />
           You can find me on <a href="https://github.com/vgnh" target="_blank" rel="noreferrer">GitHub</a> and <a href="https://twitter.com/vigneshm_" target="_blank" rel="noreferrer">Twitter</a>.<br />
           Business enquiry? Send me an <a href="mailto:vigneshofficial03@gmail.com">Email</a>.<br />
-          You can also download my <a href="https://github.com/vgnh/vgnh.github.io/releases/download/0.1.0/Vignesh-Mani-Resume.pdf">Resume</a>. (Last updated: 01-July-2022)
+          You can also download my <a href="https://github.com/vgnh/vgnh.github.io/releases/download/0.1.0/Vignesh-Mani-Resume.pdf">Resume</a>.
         </p>
       </div>
     </div>

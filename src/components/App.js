@@ -6,8 +6,8 @@ import Error from './Error'
 const App = () => {
   return (
     <Routes>
-      <Route path="/" component={Home} exact />
-      <Route component={Error} />
+      <Route path="/" element={<Home/>} />
+      <Route element={<Error/>} />
     </Routes>
   )
 }
