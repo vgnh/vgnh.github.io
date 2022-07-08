@@ -1,14 +1,14 @@
 import React from 'react'
-import { Route, Switch } from 'react-router'
+import { Route, Routes } from 'react-router'
 import Home from './Home'
 import Error from './Error'
 
 const App = () => {
   return (
-    <Switch>
+    <Routes>
       <Route path="/" component={Home} exact />
       <Route component={Error} />
-    </Switch>
+    </Routes>
   )
 }
 
